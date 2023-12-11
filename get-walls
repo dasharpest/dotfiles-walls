@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+
+printf "%s%sCloning the Repo and Copying Wallpapers for each Theme...%s\n" "${BLD}" "${CBL}" "${CNC}"
+cd ~
+
+########## ---------- Downloading & Copying Wallpapers ---------- ##########
+
+repo_url="https://github.com/dasharpest/dotfiles-walls"
+repo_dir="$HOME/ds-dotfiles-walls"
+
+# Checks if the repository directory already exists and, if so, deletes it.
+	if [ -d "$repo_dir" ]; then
+		printf "Removing existing dotfiles repository\n"
+		rm -rf "$repo_dir"
+	fi
+
+# Clone the Repository
+printf "Cloning dotfiles from %s\n" "$repo_url"
+git clone --depth=1 "$repo_url" "$repo_dir"
+sleep 1
+
+# Move the Wallpapers to the correct folders for each theme.
+mv ds-dotfiles-walls/bspwm/aline/* ~/.config/bspwm/rices/aline/walls/
+mv ds-dotfiles-walls/bspwm/andrea/* ~/.config/bspwm/rices/andrea/walls/
+mv ds-dotfiles-walls/bspwm/cristina/* ~/.config/bspwm/rices/cristina/walls/
+mv ds-dotfiles-walls/bspwm/cynthia/* ~/.config/bspwm/rices/cynthia/walls/
+mv ds-dotfiles-walls/bspwm/emilia/* ~/.config/bspwm/rices/emilia/walls/
+mv ds-dotfiles-walls/bspwm/isabel/* ~/.config/bspwm/rices/isabel/walls/
+mv ds-dotfiles-walls/bspwm/jan/* ~/.config/bspwm/rices/jan/walls/
+mv ds-dotfiles-walls/bspwm/karla/* ~/.config/bspwm/rices/karla/walls/
+mv ds-dotfiles-walls/bspwm/melissa/* ~/.config/bspwm/rices/melissa/walls/
+mv ds-dotfiles-walls/bspwm/pamela/* ~/.config/bspwm/rices/pamela/walls/
+mv ds-dotfiles-walls/bspwm/silvia/* ~/.config/bspwm/rices/silvia/walls/
+mv ds-dotfiles-walls/bspwm/z0mbi3/* ~/.config/bspwm/rices/z0mbi3/walls/
