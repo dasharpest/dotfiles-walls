@@ -22,12 +22,15 @@ sleep 1
 # Move the Wallpapers to the correct folders for each theme.
 mv ds-dotfiles-walls/bspwm/aline/* ~/.config/bspwm/rices/aline/walls/
 mv ds-dotfiles-walls/bspwm/andrea/* ~/.config/bspwm/rices/andrea/walls/
+mv ds-dotfiles-walls/bspwm/brenda/* ~/.config/bspwm/rices/brenda/walls/
 mv ds-dotfiles-walls/bspwm/cristina/* ~/.config/bspwm/rices/cristina/walls/
 mv ds-dotfiles-walls/bspwm/cynthia/* ~/.config/bspwm/rices/cynthia/walls/
+mv ds-dotfiles-walls/bspwm/daniela/* ~/.config/bspwm/rices/daniela/walls/
 mv ds-dotfiles-walls/bspwm/emilia/* ~/.config/bspwm/rices/emilia/walls/
 mv ds-dotfiles-walls/bspwm/isabel/* ~/.config/bspwm/rices/isabel/walls/
 mv ds-dotfiles-walls/bspwm/jan/* ~/.config/bspwm/rices/jan/walls/
 mv ds-dotfiles-walls/bspwm/karla/* ~/.config/bspwm/rices/karla/walls/
+mv ds-dotfiles-walls/bspwm/marisol/* ~/.config/bspwm/rices/marisol/walls/
 mv ds-dotfiles-walls/bspwm/melissa/* ~/.config/bspwm/rices/melissa/walls/
 mv ds-dotfiles-walls/bspwm/pamela/* ~/.config/bspwm/rices/pamela/walls/
 mv ds-dotfiles-walls/bspwm/silvia/* ~/.config/bspwm/rices/silvia/walls/
