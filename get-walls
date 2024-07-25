@@ -27,6 +27,7 @@ mv ds-dotfiles-walls/bspwm/cristina/* ~/.config/bspwm/rices/cristina/walls/
 mv ds-dotfiles-walls/bspwm/cynthia/* ~/.config/bspwm/rices/cynthia/walls/
 mv ds-dotfiles-walls/bspwm/daniela/* ~/.config/bspwm/rices/daniela/walls/
 mv ds-dotfiles-walls/bspwm/emilia/* ~/.config/bspwm/rices/emilia/walls/
+mv ds-dotfiles-walls/bspwm/h4ck3r/* ~/.config/bspwm/rices/h4ck3r/walls/
 mv ds-dotfiles-walls/bspwm/isabel/* ~/.config/bspwm/rices/isabel/walls/
 mv ds-dotfiles-walls/bspwm/jan/* ~/.config/bspwm/rices/jan/walls/
 mv ds-dotfiles-walls/bspwm/karla/* ~/.config/bspwm/rices/karla/walls/
@@ -34,4 +35,6 @@ mv ds-dotfiles-walls/bspwm/marisol/* ~/.config/bspwm/rices/marisol/walls/
 mv ds-dotfiles-walls/bspwm/melissa/* ~/.config/bspwm/rices/melissa/walls/
 mv ds-dotfiles-walls/bspwm/pamela/* ~/.config/bspwm/rices/pamela/walls/
 mv ds-dotfiles-walls/bspwm/silvia/* ~/.config/bspwm/rices/silvia/walls/
+mv ds-dotfiles-walls/bspwm/varinka/* ~/.config/bspwm/rices/varinka/walls/
+mv ds-dotfiles-walls/bspwm/yael/* ~/.config/bspwm/rices/yael/walls/
 mv ds-dotfiles-walls/bspwm/z0mbi3/* ~/.config/bspwm/rices/z0mbi3/walls/
